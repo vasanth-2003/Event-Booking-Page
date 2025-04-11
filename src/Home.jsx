@@ -165,21 +165,10 @@ function Home() {
      function eventfun(){
       setData(eventsData)
       setUpdata(Upcomming)
-      // async function eventData() {
-      //   const data = await fetch("https://gg-backend-assignment.azurewebsites.net/api/Events?code=FOX643kbHEAkyPbdd8nwNLkekHcL4z0hzWBGCd64Ur7mAzFuRCHeyQ==&type=reco")
-      //   const response = await data.json()
-      //   setData(response.events)
-      //   }
-      //   eventData()
-      // fetch('https://gg-backend-assignment.azurewebsites.net/api/Events?code=FOX643kbHEAkyPbdd8nwNLkekHcL4z0hzWBGCd64Ur7mAzFuRCHeyQ==&type=reco')
-      // .then(response => response.json())
-      // .then(data => setData(data.events));
+
     },[])
 
-    console.log(edata)
-    // {edata.map((item)=>(
-    //   console.log(item)
-    // ))}
+
     
   return (
     <>
