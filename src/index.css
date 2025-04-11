@@ -1,0 +1,337 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+
+/* h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+} */
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+/* body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+} */
+
+.navbar{
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: -20px; */
+  /* margin: -30px; */
+}
+.bookingCont{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.BooknowTitle{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  color: red;
+}
+
+.locatioName{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color: grey;
+}
+
+.map{
+  margin: 5px;
+  margin-top: 0px;
+  color: red;
+}
+
+.catagoriesBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  list-style-type: none;
+}
+.catBtn{
+  margin: 4px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.diffCat{
+  background-color: aliceblue;
+  margin: 2px;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+.eventBg{
+  background-image: url("C:\Users\ELCOT\Desktop\Eventproject\events\src\assets\Event-bg.png");
+  background-size: cover;
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;  
+  margin: 0px;
+}
+.favOpt{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  
+}
+.favName{
+  color: gray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-right: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.likeIcon{
+  margin: 10px;
+  color: red;
+  margin-top: 0px;
+}
+.barIcon{
+  margin: 5px;
+  margin-top: 0px;
+}
+
+.searchBar{
+  border: 0px;
+  border-radius: 5px;
+  margin-left: 10px;
+  height: 5vh;
+  width: 40vh;
+}
+.title{
+  font-family: "Roboto";
+  color: #fff;
+  width: 100vh;
+  text-align: center;
+  margin-top: 40vh;
+
+}
+.eventCards{
+  /* background-image: url("https://wallpapercave.com/wp/wp4166466.jpg"); */
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* overflow:scroll; */
+  overflow-x: scroll;
+  /* overflow: hidden; */
+  /* flex-wrap: wrap; */
+  height: 100%;
+  /* background-color: #535bf2; */
+  width: 150vh;
+}
+.eventimg{
+  height: 30vh;
+  width: 30vh;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  list-style-type: none;
+  
+}
+
+.eventitle{
+  font-family: "Roboto";
+  font-size: small;
+  color: #fff;
+  font-weight: bolder;
+
+
+}
+.hcardsList{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-x: auto;
+  list-style-type: none;
+}
+.hcardsList::-webkit-scrollbar{
+  width: 0;
+}
+.recCont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.para{
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.locationCont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  width: 30vh;
+}
+.location_info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.info{
+  color: antiquewhite;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.vcardsList{
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.cardImage{
+  height: 27vh;
+  width: 45vh;
+}
+
+.cardImage:hover{
+  color: #535bf2;
+}
+
+.align{
+  margin-left: 15px;
+}
+
+.veventitle{
+  font-family: "Roboto";
+  font-size: small;
+  color: #1E2022  ;
+  font-weight: bolder;
+}
+.vinfo{
+  color: #989090 ;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.upcommingCard{
+  background-color: #e9e0e0f0;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.aboutSec{
+  height:auto;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.secHead{
+  color: #fff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.secPara{
+  color: grey;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+.loginCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#1E2022;
+  height: 100vh;
+  
+}
+.input{
+  width: 40vh;
+  margin: 10px;
+}
+
+.inputCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 60vh;
+  width: 50vh;
+  padding: auto;
+  background-color: #646cff;
+
+}
