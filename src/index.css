@@ -112,7 +112,8 @@ button:focus-visible {
   align-items: center;
 }
 .eventBg{
-  background-image: url("C:\Users\ELCOT\Desktop\Eventprojects\Eventproject\events\src\assets\Event-bg.png");
+  background-image: url("https://media-hosting.imagekit.io/22d9f8e8aba34298/Event-bg.png?Expires=1839653401&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=veNdtzxt~C8De3CicRU-vdAfVdD8jwkwBuc-9m3EcW2O0EcQI5SfbVKTL6RJ9WKGP6yxg00G5h-9LpfuGJUmsAugSYeQSkv~zGRymXS828ln49uKAgsvj7RBiFzd3Nw3bV3KaaKX179s~D-WGxE6fwO2jEazFNIXud3L9JtyUfUWXvaNqS5ci3ns9GvS5gytDBkwVPLC9HhgtdJejlVutA0N8KmyxxZv3bcCR0~Kxsn6Ea3F8Fa9IfcjsA3kaILFAHNPk~XyjJQEdnGs4sE0-YJeIFXO~7h8W6d~GQ4NPWZVqO6sMgyJVAK89fpNI6gLl12CLZBOWK06D5CuJkzlSg__");
+  /* background-image: url("C:\Users\ELCOT\Desktop\Eventprojects\Eventproject\events\src\assets\Event-bg.png"); */
   background-size: cover;
   width: auto;
   height: 100%;
