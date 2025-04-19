@@ -25,7 +25,7 @@ function Navbar() {
     <>
         <div className='navbar'>
             <div className='bookingCont'>
-                <h1 className='BooknowTitle'>Bookus Now</h1>
+                <h1 className='BooknowTitle'>Book-us Now</h1>
                 <div className='location_info'>
                 <FaLocationDot className='map'/>
                 <h1 className='locatioName'>Chennai, India</h1>
